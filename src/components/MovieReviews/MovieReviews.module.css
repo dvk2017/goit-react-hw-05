@@ -1,0 +1,23 @@
+.container {
+  padding: 0 24px;
+}
+
+.list {
+  padding-left: 44px;
+}
+
+.loading,
+.error {
+  padding: 24px;
+  font-size: 16px;
+}
+
+.error {
+  color: #c92a2a;
+}
+
+.noReviews {
+  padding: 24px;
+  font-size: 16px;
+  color: #111;
+}

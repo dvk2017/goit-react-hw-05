@@ -1,0 +1,13 @@
+.container {
+  padding-left: 44px;
+  list-style-type: disc;
+}
+
+.link {
+  color: #0000ee;
+  font-size: 18px;
+}
+
+.link:active {
+  color: #e9a51e;
+}

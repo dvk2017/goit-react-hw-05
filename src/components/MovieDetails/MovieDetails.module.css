@@ -1,0 +1,55 @@
+.card {
+  display: flex;
+  gap: 24px;
+  padding-bottom: 20px;
+}
+
+.poster {
+  width: 250px;
+  height: 375px;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  flex-shrink: 0;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 32px;
+}
+
+.title {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: #111;
+}
+
+.score {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #111;
+}
+
+.overview {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #333;
+  max-width: 800px;
+}
+
+.genres {
+  margin: 0;
+  font-size: 15px;
+  color: #333;
+}

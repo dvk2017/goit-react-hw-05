@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+  margin: 0;
+  padding: 18px 36px;
+
+  list-style: none;
+
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.link {
+  color: #212121;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.active {
+  color: #e91e63;
+}
